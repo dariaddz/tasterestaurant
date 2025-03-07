@@ -25,6 +25,9 @@ ul {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
 img {
   display: block;
   max-width: 100%;
@@ -37,6 +40,7 @@ img {
   padding: 0 40px;
   background-color: #40464F;
   color:#FFFFFF
+/* ; display: flex;   */
 }
 
 /* .hero{
@@ -48,4 +52,33 @@ img {
 
 .second-light{background-color: #FFFFFF;
   color: #555555;
+}
+.section{display:flex}
+.top-header{height: 290px;}
+
+
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #E1B168;
+  border: 1px solid #E1B168;
+  height: 73px;
+  width: 295px;
+  font-size: 22px;
+line-height: 33;
+}
+.navigation, .socmedia{
+  display: flex;
+}
+
+.knopka{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #E1B168;
+  border: 1px solid #E1B168;
+  height: 73px;
+  width: 295px;
+  font-size: 22px;
 }
