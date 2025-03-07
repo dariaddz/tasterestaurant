@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:  "Josefin Sans",sans-serif;;
+  color: #555555;
+  font-size: 20px;
+  background-color:#FFFFFF;
+
+}
+p {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5{
+    font-family:   "Cormorant Infant", serif;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
